@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: rgb(211, 244, 102);
+  font-family: cursive;
+}
+
+h2 {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgb(3, 3, 3);
+  text-align: center;
+}
+
+.yil {
+  font-size: 5em;
+  font-weight: 600;
+}
+
+.sanoq {
+  margin: 30px;
+  width: 60%;
+  height: 110px;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sanoq div {
+  margin: 0 15px;
+  margin-top: -25px;
+  font-size: 2.5em;
+  font-weight: 600;
+  width: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.sanoq div::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  font-size: 0.35em;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.sanoq #oy::before {
+  content: "oy";
+}
+
+.sanoq #kun::before {
+  content: "kun";
+}
+
+.sanoq #soat::before {
+  content: "soat";
+}
+
+.sanoq #daqiqa::before {
+  content: "daqiqa";
+}
+
+.sanoq #soniya::before {
+  content: "soniya";
+}
